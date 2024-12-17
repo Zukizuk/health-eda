@@ -26,6 +26,7 @@ This project involves exploratory data analysis (EDA) on a heart disease dataset
 
    - Check each column for misrepresented data and encode categorical columns if necessary.
    - **Thought Process**: Ensuring that each column contains the correct type of data is crucial for accurate analysis. Misrepresented data can lead to incorrect conclusions.
+   - **Result**: Found _?_ in the **ca** and **thal** columns, so they were replaced with the mode.
 
 2. **Handle Missing Values**:
 
@@ -34,7 +35,7 @@ This project involves exploratory data analysis (EDA) on a heart disease dataset
 
 3. **Handle Duplicates**:
    - Check for duplicates in the dataset.
-   - **Thought Process**: Duplicates can distort the analysis by giving undue weight to certain observations. Removing duplicates ensures that each observation is unique.
+   - **Result**: There were no duplicates found
 
 ### Task 3: Univariate Analysis
 
@@ -44,8 +45,11 @@ This project involves exploratory data analysis (EDA) on a heart disease dataset
    - **Thought Process**: Visualizing the distribution of numerical variables helps in understanding their spread, central tendency, and presence of outliers.
 
 2. **Analyze categorical variables**:
+
    - Plot bar charts for categorical variables.
    - **Thought Process**: Bar charts provide a clear view of the frequency distribution of categorical variables, helping in identifying dominant categories.
+
+   **Extra**: For easy analysis, the heart column was changed to be either 0 = no heart disease or 1= heart disease
 
 ### Task 4: Bivariate Analysis
 
